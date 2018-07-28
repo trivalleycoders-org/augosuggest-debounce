@@ -6,3 +6,8 @@ export const getCities = (state) => {
   return r
 }
 
+export const getPostalCodes = (state) => {
+  const r = state.postalCodes || []
+  return r
+}
+

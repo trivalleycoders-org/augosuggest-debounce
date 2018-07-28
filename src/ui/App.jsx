@@ -4,9 +4,8 @@ import { withStyles } from '@material-ui/core/styles'
 import { compose } from 'recompose'
 /* User */
 import withRoot from './withRoot'
-// import AutoSuggestComponent from './AutoSuggestComponent'
-// import Debounce from './Debounce'
-import Misha from './Misha'
+import PostalCodeLookup from './PostalCodeLookup'
+
 
 const App = ({ classes }) => (
   <div className={classes.wrapper}>
@@ -16,7 +15,7 @@ const App = ({ classes }) => (
     <section className="section">
       {/* <AutoSuggestComponent /> */}
       {/* <Debounce /> */}
-      <Misha />
+      <PostalCodeLookup />
     </section>
   </div>
 )
